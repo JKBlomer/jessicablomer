@@ -1,0 +1,17 @@
+.navbar{
+    box-shadow: 5px 10px 8px;
+}
+.bio{
+    display:flex;
+    margin-left:70px ;
+    
+}
+.jumbotron{
+    background-color: #ffc04c;
+    
+}
+
+.card-img-top{
+    border-radius: 25px;
+    border: "5px" solid orange;
+}
