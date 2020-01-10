@@ -1,17 +1,32 @@
 .navbar{
     box-shadow: 5px 10px 8px;
 }
+
 .bio{
     display:flex;
-    margin-left:70px ;
     
+  
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+  
 }
 .jumbotron{
     background-color: #ffc04c;
+    text-align: center;
     
 }
 
+
 .card-img-top{
     border-radius: 25px;
-    border: "5px" solid orange;
+    
+    
+}
+
+@media screen and (max-width: 413px){
+    .bio{
+        display:block;
+    }
 }
