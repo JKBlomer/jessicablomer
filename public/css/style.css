@@ -1,29 +1,37 @@
 .navbar{
     box-shadow: 5px 10px 8px;
 }
-
-.bio{
-    display:flex;
-    
-  
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    
-  
-}
 .jumbotron{
     background-color: #ffc04c;
     text-align: center;
     
 }
 
+.bio{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+/* .card{
+    width:40%;
+} */
+
+.row{
+    width: 40%;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
 .card-img-top{
     border-radius: 25px;
-    
-    
 }
+/* .col-md-4{
+    width: 100%;
+} */
 
 @media screen and (max-width: 413px){
     .bio{
